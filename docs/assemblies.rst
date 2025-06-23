@@ -145,7 +145,7 @@ filename in the download URL.
 
 Here's an example of how to get the wget commands to run::
 
-    $ zcat file_list.all.latest.tsv.gz  | awk 'NR>1 {print "wget -O "$3" "$4}' | uniq | head -n3
+    $ gunzip -c file_list.all.latest.tsv.gz  | awk -F"\t" 'NR>1 {print "wget -O "$5" "$6}' | uniq | head -n3
     wget -O atb.assembly.r0.2.batch.1.tar.xz     https://osf.io/download/667142936b6c8e33f404cce7/
     wget -O atb.assembly.r0.2.batch.2.tar.xz https://osf.io/download/667142d10f8c8017b03c96b0/
     wget -O atb.assembly.r0.2.batch.3.tar.xz https://osf.io/download/667142c877ff4c5f1ee04625/
