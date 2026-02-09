@@ -9,4 +9,4 @@ We have shared a single results file which is the concatenated output of the `sy
 
 **Important:** Note that this analysis is all with DefenseFinder `v1.3.0 <https://github.com/mdmparis/defense-finder/releases/tag/v1.3.0>`_ using the profiles from CasFinder v3.1.0 and defense-finder-models v1.3.0, the latter of which includes 151 defense systems (and 16 anti-defense systems). This means that newer defense systems added to DefenseFinder after July 2024 will not be present in the results. For context, as of February 2026 the latest release of DefenseFinder is v2.0.1 and the latest models version (v2.0.2) contains 262 defense systems. 
 
-More details on the analysis are available on the AllTheBacteria github `here <https://github.com/AllTheBacteria/AllTheBacteria/tree/main/reproducibility/defense-systems>`_. 
+More details on the analysis are available on the AllTheBacteria github `here <https://github.com/AllTheBacteria/AllTheBacteria/tree/main/reproducibility/All-samples/defense-systems>`_. 
