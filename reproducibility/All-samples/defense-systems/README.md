@@ -1,6 +1,7 @@
 # Defense systems
 
-Contributors: Liam Shaw (liam.shaw@bristol.ac.uk), Rachel Wheatley (, Robert A. Petit III
+Contributors: Liam Shaw, Rachel Wheatley, Robert A. Petit III
+Author of this README: Liam Shaw
 
 The initial aim of this analysis was to investigate defense systems within Enterobacterales. We ran [DefenseFinder](https://github.com/mdmparis/defense-finder) v1.3.0 on Enterobacterales species with >400 samples (27 species, n=1,166,956 samples) within AllTheBacteria release 0.2 plus incremental release 2024-08. The results are available on OSF [here](https://osf.io/hpgac/overview). 
 
@@ -43,13 +44,8 @@ We found that 653 samples did not have any defense systems detected, and we veri
 
 ## Acknowledgements
 
-Many thanks to the authors of DefenseFinder who made this analysis possible by making their tool openly available. We gratefully acknowledge and cite the publications this analysis rests on:
+Many thanks to the authors of DefenseFinder who made this analysis possible by making their tool openly available! We gratefully acknowledge and cite the publications this analysis rests on:
 
 * "Systematic and quantitative view of the antiviral arsenal of prokaryotes" Nature Communications (2022) Tesson et al. [link](https://doi.org/10.1038/s41467-022-30269-9)
 * "MacSyFinder v2: Improved modelling and search engine to identify molecular systems in genomes" Peer Community Journal (2023) Néron et al. [link](https://doi.org/10.24072/pcjournal.250)
 * "CRISPRCasFinder, an update of CRISRFinder, includes a portable version, enhanced performance and integrates search for Cas proteins" Nucleic Acids Research (2018) Couvin et al. [link](https://doi.org/10.1093/nar/gky425)
-
-
-
-
-
